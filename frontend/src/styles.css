@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+:root {
+    --light-light-grey: hsl(0, 10%, 90%);
+    --light-grey: #dcdada;
+    --medium-grey: #aca6a6;
+    --light-dark-grey: #807f7f;
+    --crimson: #dc143c;
+    --light-olive: #bcb88a;
+    --dark-green: #556b2f;
+    --medium-maroon: #994570;
+    --dark-maroon: #6b304e;
+    --mid-blue: #1e4c6d;
+    --yellow: #f3a700;
+    --light-yellow: #ffb617;
+}
+
+body {
+    background-color: var(--light-dark-grey) !important;
+}
+
+.content-section {
+    background: var(--medium-grey);
+    padding: 10px 20px;
+    border: 1px solid #918b8b;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+}
+
+.bg-steel {
+    background-color: #47958d;
+}
+
+.navbar {
+    height: 5.5rem;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.special-text {
+    text-decoration: none;
+    color: black;
+}
+
+.bold-hr {
+    border: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    background-color: #007bffa8;
+    color: #fff;
+    border-color: #007bffbe;
+    border-radius: 10px;
+    padding: 0.6rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+.custom-feedback-bg {
+    background-color: var(--light-grey);
+}
+
+.custom-feedback-content {
+    line-height: 1.5;
+}
+
+.radio-group .form-check-input {
+    transform: scale(1.5);
+}
+
+#pdf-viewer {
+    text-align: center;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.account-img {
+    height: 18rem;
+    width: 25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.nav-img {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.logo-img {
+    height: 55px;
+    width: 55px;
+}
+
+.nav-item.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+
+.search-form {
+    border: none;
+}
+
+.search-form .input-group {
+    width: 100%;
+}
+
+.search-form .form-control {
+    border-radius: 7px;
+}
+
+.search-form .btn {
+    border-radius: 0 7px 7px 0;
+    background-color: #007bff;
+    color: white;
+}
+
+.search-form .btn:hover {
+    background-color: #0056b3;
+}
+
+.special-input {
+    background-color: var(--light-grey);
+}
+
+.special-input:focus {
+    background-color: var(--light-light-grey);
+}
+
+.disabled-style {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+    color: #6c757d;
+}
+
+.bg-footer {
+    background-color: #373a3b;
+    padding: 25px 0 25px;
+}
+
+.footer-link a {
+    color: #acacac;
+    line-height: 40px;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #e3efe3;
+}
+
+.contact-info {
+    color: #acacac;
+    font-size: 0.9rem;
+}
+
+.footer-social-icon {
+    font-size: 15px;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-heading:after {
+    content: "";
+    width: 150px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    border-bottom: 1px solid #1bbc9b;
+}
+
+.card {
+    background-color: var(--light-grey);
+}
+
+.mt-sp {
+    margin-top: 5.5vh;
+}
+
+.special-plus-icon {
+    font-size: 7.5rem;
+    color: #1e8f5b;
+}
+
+.card-img-top {
+    width: "100%";
+    height: 30vh;
+    border-bottom: 2px solid #bbb6b6;
+}
+
+.special-card {
+    width: 100%;
+    border: 1px solid #868282;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+        rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 6px;
+}
+
+.special-file-upload {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    color: #333;
+}
+
+.rounded-bottom {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.btn-lg {
+    font-size: 1.13rem !important;
+}
+
+.form-check-input[type="radio"] {
+    width: 1.2em;
+    height: 1.2em;
+}
