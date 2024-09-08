@@ -16,7 +16,7 @@ The Library Management System is a web application designed for managing books a
 - **For Regular Users**:
   - Request books.
   - View their current book requests and status.
-  - Access and download reports and statistics.
+  - Access their statistics.
 
 ## File Structure
 
