@@ -74,16 +74,16 @@ The Library Management System is a web application designed for managing books a
      ```
 
 4. **Run the Application**:
-   - Start the backend server:
+   - Start the backend server (in backend folder):
      ```bash
-     python app.py
+     sh run_app.sh
      ```
-   - Start the Celery worker and beat scheduler:
+   - Start the Celery worker and beat scheduler (in backend folder):
      ```bash
      sh worker_celery.sh
      sh beat_celery.sh
      ```
-   - Start the frontend server:
+   - Start the frontend server (in frontend folder):
      ```bash
-     npm run serve
+     npm run dev
      ```
